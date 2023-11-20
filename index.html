@@ -5,21 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADBrok Originals YouTube</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f8f8f8;
+            color: #333;
         }
 
         header {
             background-color: #ff0000;
             color: #fff;
-            padding: 15px;
+            padding: 20px 0;
             text-align: center;
-            font-size: 28px;
+            font-size: 36px;
+            font-weight: 700;
             letter-spacing: 1px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
         }
 
         main {
@@ -27,18 +31,19 @@
             margin: 20px auto;
             padding: 20px;
             background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
 
         h2 {
-            color: #333;
-            font-size: 24px;
-            margin-bottom: 15px;
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 20px;
         }
 
         p {
-            color: #666;
             line-height: 1.6;
+            margin-bottom: 15px;
         }
 
         footer {
@@ -49,17 +54,20 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+            font-size: 14px;
         }
 
         .subscribe-button {
             display: inline-block;
-            padding: 12px 24px;
+            padding: 15px 30px;
             background-color: #ff0000;
             color: #fff;
             text-decoration: none;
             font-weight: bold;
-            border-radius: 5px;
+            border-radius: 8px;
             transition: background-color 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
         .subscribe-button:hover {
@@ -69,18 +77,20 @@
         img {
             max-width: 100%;
             height: auto;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
         }
 
         section {
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
 
         h3 {
-            color: #ff0000;
-            font-size: 22px;
+            font-size: 24px;
+            font-weight: 700;
             margin-bottom: 15px;
+            color: #ff0000;
         }
 
         ul {
@@ -90,6 +100,7 @@
 
         ul li {
             margin-bottom: 10px;
+            font-size: 16px;
         }
 
         a {
@@ -100,6 +111,16 @@
         }
 
         a:hover {
+            color: #cc0000;
+        }
+
+        .contact-link {
+            color: #ff0000;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        .contact-link:hover {
             color: #cc0000;
         }
     </style>
@@ -139,8 +160,15 @@
         <!-- Contact Section -->
         <section>
             <h3>Contact</h3>
-            <p>For business inquiries or collaborations, please contact us at <a href="mailto:atitmaley@gmail.com">atitmaley@gmail.com</a>.</p>
+            <p>For business inquiries or collaborations, please contact us at <a class="contact-link"
+                    href="mailto:atitmaley@gmail.com">atitmaley@gmail.com</a>.</p>
         </section>
+
+        <!-- Subscribe button -->
+        <a class="subscribe-button" href="https://www.youtube.com/@Atitmaleyoriginal?si=Isy0pojUUjTFTbIb"
+            target="_blank">
+            Subscribe Now
+        </a>
 
     </main>
 
