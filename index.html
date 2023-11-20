@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADBrok originals youtube</title>
+    <title>ADBrok Originals YouTube</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f8f8f8;
@@ -16,9 +16,10 @@
         header {
             background-color: #ff0000;
             color: #fff;
-            padding: 10px;
+            padding: 15px;
             text-align: center;
-            font-size: 24px;
+            font-size: 28px;
+            letter-spacing: 1px;
         }
 
         main {
@@ -31,10 +32,13 @@
 
         h2 {
             color: #333;
+            font-size: 24px;
+            margin-bottom: 15px;
         }
 
         p {
             color: #666;
+            line-height: 1.6;
         }
 
         footer {
@@ -49,12 +53,54 @@
 
         .subscribe-button {
             display: inline-block;
-            padding: 10px 20px;
+            padding: 12px 24px;
             background-color: #ff0000;
             color: #fff;
             text-decoration: none;
             font-weight: bold;
             border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .subscribe-button:hover {
+            background-color: #cc0000;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            color: #ff0000;
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #ff0000;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #cc0000;
         }
     </style>
 </head>
@@ -62,52 +108,39 @@
 <body>
 
     <header>
-        ADBrok originals YouTube Channel
+        ADBrok Originals YouTube Channel
     </header>
 
     <main>
-        <h2>Welcome to ADBrok originals!</h2>
+        <h2>Welcome to ADBrok Originals!</h2>
 
-        <!-- Add your video content, playlists, etc. here -->
+        <!-- Featured Video -->
+        <section>
+            <h3>Featured By</h3>
+            <img src="atit.jpg" alt="Photo Icon">
+        </section>
 
-        <!-- Subscribe button -->
-        <a class="subscribe-button" href="https://www.youtube.com/@Atitmaleyoriginal?si=Isy0pojUUjTFTbIb"
-            target="_blank">
-            Subscribe
-        </a>
-        <main>
-        
-            <!-- Featured Video -->
-            <section>
-                <h3>Featured By</h3>
-                <img height="315" width="315" src="atit.jpg" alt="Photo Icon">
-            </section>
-        
-            <!-- Playlists -->
-            <section>
-                <h3>Videos</h3>
-                <ul>
-                    <li><a href="https://youtube.com/shorts/vxMoAypU99s?si=ffdMWyMy-EtdOtmB">Check it out</a></li>
-                    <li><a href="https://youtube.com/shorts/3GYF4TIyfdU?si=I0ISjcxR9-CpvwDC">Check it out</a></li>
-                    <!-- Add more playlists as needed -->
-                </ul>
-            </section>
-        
+        <!-- Playlists -->
+        <section>
+            <h3>Videos</h3>
+            <ul>
+                <li><a href="https://youtube.com/shorts/vxMoAypU99s?si=ffdMWyMy-EtdOtmB">Check it out</a></li>
+                <li><a href="https://youtube.com/shorts/3GYF4TIyfdU?si=I0ISjcxR9-CpvwDC">Check it out</a></li>
+                <!-- Add more playlists as needed -->
+            </ul>
+        </section>
 
-        
-            <!-- About Section -->
-            <section>
-                <h3>Target</h3>
-                <p> Need only 20M subscribers.</p>
-            </section>
-        
-            <!-- Contact Section -->
-            <section>
-                <h3>Contact</h3>
-                <p>For business inquiries or collaborations, please contact us at atitmaley@gmail.com .</p>
-            </section>
-        
-        </main>
+        <!-- About Section -->
+        <section>
+            <h3>Target</h3>
+            <p>Need only 20M subscribers.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section>
+            <h3>Contact</h3>
+            <p>For business inquiries or collaborations, please contact us at <a href="mailto:atitmaley@gmail.com">atitmaley@gmail.com</a>.</p>
+        </section>
 
     </main>
 
